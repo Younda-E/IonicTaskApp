@@ -1,0 +1,134 @@
+ion-col {
+  text-align: center;
+  font-size: 12px;
+  box-shadow: 2px 7px 16px 1px #d7d8da9c !important;
+  border-radius: 10px;
+  // margin-top: 2%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  img {
+    width: 48%;
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+}
+
+ion-row {
+  margin-bottom: 4%;
+}
+
+ion-card-header, ion-card-content {
+  text-align: right;
+}
+ion-card-content {
+  color: #fff !important;
+  font-size: 11px;
+}
+
+ion-card-header {
+  .card-btn {
+    color: red;
+    --background: #fff !important;
+    font-family: 'Almarai', sans-serif;
+  }
+}
+
+ion-card {
+  background-image: url("/assets/imgs/slider.jpg");
+  // height: 634px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 4%;
+  height: 114;
+  font-family: 'Almarai', sans-serif;
+}
+
+ion-grid {
+  margin-top: -4%;
+}
+
+ion-badge {
+  background: red;
+  color: #fff;
+  padding: 1px 3px;
+}
+
+
+filter-outline {
+  font-size: 20px !important;
+}
+
+ion-header {
+
+  ion-toolbar, ion-item{
+    --background: #06D495;
+    background: #06D495;
+    padding: 0 10px;
+    color: #ffff;
+
+    .ionicon notifications-outline {
+      font-size: 25px !important;
+    }
+    ion-avatar {
+      --border-radius: 15% !important;
+    }
+  }
+  ion-badge {
+    --background : #E83F3F;
+    --color: #fff;
+    padding: 1px 3px;
+    font-size: 9px;
+    border-radius: 3px;
+    position: relative;
+    top: -9px;
+    right: -6px;
+  }
+
+  ion-item {
+
+    h3 {
+      // font-weight: 700;
+      font-size: 14px;
+      font-family: 'Almarai', sans-serif;
+    }
+
+    p {
+      // font-weight: 500;
+      font-size: 14px;
+      color: #ffff;
+      font-family: 'Almarai', sans-serif;
+    }
+
+    ion-avatar {
+      --border-radius: 40%;
+    }
+  }
+
+
+}
+.ion-no-border {
+  height: 170px;
+  background: #06D495
+}
+
+.container {
+  background: #fff;
+  border-radius: 17px;
+}
+ion-content {
+  position: relative;
+  top: -28px;
+  z-index: 11;
+  --background: transparent;
+  font-family: 'Almarai', sans-serif;
+}
+
+
+

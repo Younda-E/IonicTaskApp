@@ -1,0 +1,56 @@
+
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button icon="arrow-back-outline"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<!-- <ion-icon name="arrow-back-outline"></ion-icon> -->
+<ion-content>
+  <img src="assets/logo.png" alt="" class="logo" >
+  <div padding>
+    <ion-segment [(ngModel)]="pet">
+
+      <ion-segment-button value="puppies">
+        إنشاء حساب
+      </ion-segment-button>
+      <ion-segment-button value="kittens" class="kittens">
+        تسجيل دخول
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'puppies'">
+      <!-- <ion-item>
+        <ion-input type="text" placeholder="البريد الاإلكتروني"><ion-icon name="call-outline"></ion-icon></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="كلمة المرور"><ion-icon name="lock-closed-outline"></ion-icon></ion-input>
+      </ion-item>
+
+      <ion-button class="btn-1">تسجيل دخول</ion-button>
+      <ion-button class="btn-2">دخول كزائر</ion-button>
+      <span>?نسيت كلمة المرور</span> -->
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'kittens'">
+      <ion-item>
+        <ion-input [(ngModel)]="postData.useremail" name="useremail" type="text" placeholder="البريد الاإلكتروني"><ion-icon name="call-outline"></ion-icon></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input [(ngModel)]="postData.password"
+         name="password" type="password" placeholder="كلمة المرور"><ion-icon name="lock-closed-outline"></ion-icon></ion-input>
+      </ion-item>
+
+      <ion-button (click)="login()" class="btn-1" routerLink="/home">تسجيل دخول</ion-button>
+      <ion-button class="btn-2">دخول كزائر</ion-button>
+      <span>?نسيت كلمة المرور</span>
+    </ion-list>
+  </div>
+
+</ion-content>

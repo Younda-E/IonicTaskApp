@@ -1,0 +1,79 @@
+ion-back-button {
+  color: #06D495;
+  position: fixed
+}
+
+.logo {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+
+ .kittens {
+  border-left: 2px solid #3333331a !important;
+}
+
+ion-segment {
+  margin-top: 10%;
+  font-family: 'Almarai', sans-serif;
+}
+
+ion-segment-button {
+  --indicator-color: none !important;
+}
+
+
+ion-item {
+  margin-top: 2%;
+  text-align: right;
+  margin-bottom: 5%;
+  border: 1px solid #33333305;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  box-shadow: 2px 7px 8px #d7d8da;
+  font-family: 'Almarai', sans-serif;
+}
+
+.item-interactive {
+  --border-width: 0 0 0px 0 !important;
+}
+
+.btn-1 {
+  width : 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+  color: #fff !important;
+  border-radius: 10px;
+  box-shadow: 2px 7px 8px #42d77d7a !important;
+  font-family: 'Almarai', sans-serif;
+}
+
+.btn-2 {
+
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-right: 10%;
+  --background: #e3dede !important;
+  color: #8b8687;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  box-shadow: 2px 7px 8px #d7d8da !important;
+  font-family: 'Almarai', sans-serif;
+}
+
+span {
+  font-size: 12px;
+    margin-left: 30px;
+    color: #33333375;
+    font-weight: 500;
+    font-family: 'Almarai', sans-serif;
+}
+
+ion-content {
+  font-family: 'Almarai', sans-serif;
+}
